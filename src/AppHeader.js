@@ -4,14 +4,9 @@ export const AppHeader = () => {
   return (
     <header className="ui fixed menu">
       <nav className="ui container">
-        <a  className="header item">
-          <img
-            className="logo"
-            src="https://typeofweb.com/wp-content/uploads/2017/08/cropped-typeofweb_logo-04-white-smaller-1-e1504359870362.png"
-            alt="logo"
-          />
-          Lista kontaktów
-        </a>
+        <span  className="header item">
+          Lista produktów
+        </span>
         <div className="header item">
           <button className="ui button">Dodaj</button>
         </div>

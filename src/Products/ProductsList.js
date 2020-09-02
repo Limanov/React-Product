@@ -13,7 +13,7 @@ export class ProductsList extends React.Component {
     const fiber = product.Fiber;
     const kiloJoules = product.KiloJoules;
     const productCategoryId = product.ProductCategoryId;
-    const protein = product.protein;
+    const protein = product.Protein;
     const salt = product.Salt;
     return <ProductItem key={foodProductId} 
                         calories = {calories}

@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Components.css"
 import  {Textbox}  from "./Textbox";
-export const Login = ({ 
+export const Login = ({
    }) => {
   return (
     <div className="login">
@@ -13,7 +13,8 @@ export const Login = ({
             </div>
         </div>
 <div className="login-screen">
-<Textbox/>
+<Textbox label="Login"/>
+<Textbox label="Email"/>
 </div>
 </div>
   );

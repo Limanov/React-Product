@@ -1,10 +1,10 @@
 import * as React from "react";
 import "./Components.css"
-export const Textbox = ({ 
+export const Textbox = ({label 
    }) => {
   return (
       <div>
-    <input type="text" value="test"/>
+    <label>{label}</label><input type="text" />
         
     </div>
   );

@@ -21,10 +21,10 @@ export const ProductItem = ({
         <div className="description">Tłuszcz: {fat}</div>
         <div className="description">Błonnik: {fiber}</div>
         <div className="description">KiloJoule: {kiloJoules}</div>
-        <div className="description">Id Kategorii produktu:{productCategoryId}</div>
-        <div className="description">Białko: {protein}</div>
+        <div className="description">Białko: {protein}<div/> 
         <div className="description">Sól: {salt}</div>
         <div className="description">Kategoria produktu: {productCategory}</div>
+      </div>
       </div>
     </li>
   );
