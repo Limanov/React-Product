@@ -7,11 +7,11 @@ type Product = {
     name:string,
     carbohydrates:number,
     fat:number,
-    fiber:number,
+    fiber?:number,
     kiloJoules:number,
     productCategoryId:number,
     protein:number,
-    salt:number,
+    salt?:number,
 }
 
 type ProductCategory = {
